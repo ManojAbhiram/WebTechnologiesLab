@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<h2>Form</h2>
+<form id="myForm">
+<label for="name">Name:</label>
+<input type="text" id="name" required>
+<label for="email">Email:</label>
+<input type="text" id="email" required>
+<label>Gender:</label>
+<input type="radio" name="gender" value="male" required> Male
+<input type="radio" name="gender" value="female" required> Female
+<label>Qualification:</label>
+<input type="checkbox" name="qualification" value="highschool"> High
+School
+<input type="checkbox" name="qualification" value="undergraduate">
+Undergraduate
+<input type="checkbox" name="qualification" value="graduate"> Graduate
+<input type="checkbox" name="qualification" value="postgraduate">
+Postgraduate
+<label for="highestDegree">Highest Degree:</label>
+<select id="highestDegree" required>
+<option value="">Select</option>
+<option value="highschool">High School</option>
+<option value="undergraduate">Undergraduate</option>
+<option value="graduate">Graduate</option>
+<option value="postgraduate">Postgraduate</option>
+</select>
+<button type="submit">Submit</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
